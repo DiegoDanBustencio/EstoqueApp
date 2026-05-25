@@ -1,0 +1,3 @@
+C:\Users\John smith\EstoqueApp\EstoqueApp\publish\EstoqueApp.pdb
+C:\Users\John smith\EstoqueApp\EstoqueApp\publish\e_sqlite3.dll
+C:\Users\John smith\EstoqueApp\EstoqueApp\publish\EstoqueApp.exe
