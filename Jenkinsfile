@@ -29,7 +29,7 @@ pipeline {
 
     post {
         success {
-            archiveArtifacts artifacts: 'installer/output/EstoqueApp.exe', fingerprint: true
+            archiveArtifacts artifacts: 'installer/output/*.exe', fingerprint: true
         }
     }
 }
