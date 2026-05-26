@@ -16,7 +16,7 @@ pipeline {
 
         stage('Publicar executavel') {
             steps {
-                bat 'dotnet publish EstoqueApp/EstoqueApp.csproj -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true -o publish'
+                bat 'dotnet publish EstoqueApp/EstoqueApp.csproj -c Release -r win-x64 --self-contained true -o publish'
             }
         }
 
